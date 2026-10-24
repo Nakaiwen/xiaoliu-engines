@@ -20,17 +20,11 @@
         { "repo": "lucky_export", "path": "lib/solar-lunar.js" },
         { "repo": "mini-heping", "path": "engines/taiyi/lib/solar-lunar.js" },
         { "repo": "mini-heping", "path": "engines/bazi.html", "inline": "/* ===== inlined: solar-lunar.js ===== */" },
-        { "repo": "ziwei-doushu", "path": "solar-lunar.js" }
-      ],
-      "legacy": {
-        "說明": "已知的舊版拷貝（節氣表只到 2050 年；1930–2050 內容與正本逐字相同）。升級後請移到 copies。",
-        "sha256": "2330890eed921a7e0f3173e353b2cd6ffa3fafb6ba7f5f394ec8d22af502d08c",
-        "copies": [
-          { "repo": "Xiaoliu", "path": "lib/solar-lunar.js" },
-          { "repo": "qian_tube", "path": "solar-lunar.js" },
-          { "repo": "ri-ri-an-xin", "path": "solar-lunar.js" }
-        ]
-      }
+        { "repo": "ziwei-doushu", "path": "solar-lunar.js" },
+        { "repo": "Xiaoliu", "path": "lib/solar-lunar.js" },
+        { "repo": "qian_tube", "path": "solar-lunar.js" },
+        { "repo": "ri-ri-an-xin", "path": "solar-lunar.js" }
+      ]
     }
   }
 }
