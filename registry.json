@@ -24,6 +24,25 @@
         { "repo": "qian_tube", "path": "solar-lunar.js" },
         { "repo": "ri-ri-an-xin", "path": "solar-lunar.js" }
       ]
+    },
+    "bazi-engine": {
+      "說明": "八字排盤引擎（純邏輯模組，依賴 solar-lunar）",
+      "version": "1.0.0",
+      "file": "bazi-engine/bazi-engine.js",
+      "sha256": "2a21c7caa0e953cdb73c866c953f571f3df31d40008c437ed2cb314be9cc01bf",
+      "copies": [
+        { "repo": "bazi-tool", "path": "bazi-engine.js" },
+        { "repo": "bazi-tool", "path": "index.html", "inline": "/* ===== inlined: bazi-engine.js ===== */" },
+        { "repo": "Hebing-tool-", "path": "bazi-engine.js" },
+        { "repo": "Hebing-tool-", "path": "bazi.html", "inline": "/* ===== inlined: bazi-engine.js ===== */" }
+      ],
+      "legacy": {
+        "說明": "已知舊版：2026-09-28 師承裁定（財存活、專旺我）之前的引擎。是否升級待 Nakai 決定；升級後移到 copies。",
+        "sha256": "4ce5c22c9b74e4f202bf86aea92b1dbc2ab9db6608cc7cd8d2446d0562cebdf4",
+        "copies": [
+          { "repo": "mini-heping", "path": "engines/bazi.html", "inline": "/* ===== inlined: bazi-engine.js ===== */" }
+        ]
+      }
     }
   }
 }
