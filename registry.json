@@ -1,0 +1,36 @@
+{
+  "說明": "小六太乙共用引擎登記簿：每個引擎的正本版本，以及它被複製到哪些工具。修改正本後，依此清單更新每一份拷貝，再執行 node check.mjs 核對。",
+  "owner": "Nakaiwen",
+  "branch": "main",
+  "engines": {
+    "solar-lunar": {
+      "說明": "節氣、干支、農曆換算函式庫（全域變數 solarLunar），含 1930–2100 精確節氣表",
+      "version": "1.0.0",
+      "file": "solar-lunar/solar-lunar.js",
+      "sha256": "059425bbd8fbaf9ee24673d011a70fce8da9bdfddd355e9b072e91f0d0cb746b",
+      "copies": [
+        { "repo": "Hebing-tool-", "path": "solar-lunar.js" },
+        { "repo": "Hebing-tool-", "path": "qimen/solar-lunar.js" },
+        { "repo": "Hebing-tool-", "path": "taiyi/lib/solar-lunar.js" },
+        { "repo": "Hebing-tool-", "path": "taiyi/taiyi-national/lib/solar-lunar.js" },
+        { "repo": "Hebing-tool-", "path": "bazi.html", "inline": "/* ===== inlined: solar-lunar.js ===== */" },
+        { "repo": "Qimen", "path": "solar-lunar.js" },
+        { "repo": "bazi-tool", "path": "solar-lunar.js" },
+        { "repo": "bazi-tool", "path": "index.html", "inline": "/* ===== inlined: solar-lunar.js ===== */" },
+        { "repo": "lucky_export", "path": "lib/solar-lunar.js" },
+        { "repo": "mini-heping", "path": "engines/taiyi/lib/solar-lunar.js" },
+        { "repo": "mini-heping", "path": "engines/bazi.html", "inline": "/* ===== inlined: solar-lunar.js ===== */" },
+        { "repo": "ziwei-doushu", "path": "solar-lunar.js" }
+      ],
+      "legacy": {
+        "說明": "已知的舊版拷貝（節氣表只到 2050 年；1930–2050 內容與正本逐字相同）。升級後請移到 copies。",
+        "sha256": "2330890eed921a7e0f3173e353b2cd6ffa3fafb6ba7f5f394ec8d22af502d08c",
+        "copies": [
+          { "repo": "Xiaoliu", "path": "lib/solar-lunar.js" },
+          { "repo": "qian_tube", "path": "solar-lunar.js" },
+          { "repo": "ri-ri-an-xin", "path": "solar-lunar.js" }
+        ]
+      }
+    }
+  }
+}
