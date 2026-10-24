@@ -21,7 +21,6 @@
         { "repo": "mini-heping", "path": "engines/taiyi/lib/solar-lunar.js" },
         { "repo": "mini-heping", "path": "engines/bazi.html", "inline": "/* ===== inlined: solar-lunar.js ===== */" },
         { "repo": "ziwei-doushu", "path": "solar-lunar.js" },
-        { "repo": "Xiaoliu", "path": "lib/solar-lunar.js" },
         { "repo": "qian_tube", "path": "solar-lunar.js" },
         { "repo": "ri-ri-an-xin", "path": "solar-lunar.js" }
       ]
